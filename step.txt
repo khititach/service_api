@@ -1,0 +1,13 @@
+1.install mongodb
+  check version mongodb -> mongod --version
+2.make directory "H:\db_path"
+3.start mongodb service ->
+  mongod --dbpath H:\db_path
+  look server ip -> ipconfig/ifconfig
+  config.js and change ip
+4.git clone swelab-server-api from 
+  https://github.com/theerawutt53/swelab-server-api.git
+5.cd swelab-server-api 
+  run -> npm install
+6.run -> node server.js
+
